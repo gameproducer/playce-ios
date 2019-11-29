@@ -1,0 +1,96 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Bugsee (1.25.0)
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher/Core (1.2.2)
+  - iCarousel (1.8.3)
+  - MarqueeLabel/Swift (3.2.1)
+  - Material (3.1.6):
+    - Material/Core (= 3.1.6)
+  - Material/Core (3.1.6):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.1):
+    - Motion/Core (= 3.1.1)
+  - Motion/Core (3.1.1)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SlideMenuControllerSwift (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Bugsee
+  - Crashlytics
+  - Fabric
+  - GoogleSignIn
+  - iCarousel
+  - MarqueeLabel/Swift
+  - Material
+  - SDWebImage (~> 3.8)
+  - SlideMenuControllerSwift (from `https://github.com/anhhtbk/SlideMenuControllerSwift.git`)
+  - SVProgressHUD
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Crashlytics
+    - Fabric
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - iCarousel
+    - MarqueeLabel
+    - Material
+    - Motion
+    - SDWebImage
+    - SVProgressHUD
+    - youtube-ios-player-helper
+  trunk:
+    - Bugsee
+
+EXTERNAL SOURCES:
+  SlideMenuControllerSwift:
+    :git: https://github.com/anhhtbk/SlideMenuControllerSwift.git
+
+CHECKOUT OPTIONS:
+  SlideMenuControllerSwift:
+    :commit: de74253f12386cfd8089be7281d92a6b1eb5317a
+    :git: https://github.com/anhhtbk/SlideMenuControllerSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Bugsee: 63d963714bb8b5afd2489dcdae12be7ab7736242
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  MarqueeLabel: 2daf039bf916937c8a4c9adfc13577cc5e51b4ce
+  Material: 9b30613deb1b79487eeede5e4f90cbff084311ea
+  Motion: f115b33f36cc52472a25a965daa89b3859817de0
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SlideMenuControllerSwift: f9ec1ad1a95d211324d25b15dcdbc94881596716
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 061883b6475d8ce96222353df1d9fa7afec8c0da
+
+COCOAPODS: 1.8.4

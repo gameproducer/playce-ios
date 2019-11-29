@@ -1,0 +1,36 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '10.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'playce' do
+
+pod 'Alamofire', '~> 4.0'
+pod 'Material'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'GoogleSignIn'
+pod 'SlideMenuControllerSwift', :git => 'https://github.com/anhhtbk/SlideMenuControllerSwift.git'
+pod 'SVProgressHUD'
+pod 'SDWebImage', '~>3.8'
+pod 'youtube-ios-player-helper', '~> 0.1.4'
+pod 'iCarousel'
+pod 'MarqueeLabel/Swift'
+pod 'Bugsee'
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['DEBUG_INFORMATION_FORMAT'] = 'dwarf-with-dsym'
+    end
+  end
+end
+#post_install do |installer|
+#   installer.pods_project.targets.each do |target|
+#       target.build_configurations.each do |config|
+#           config.build_settings['SWIFT_VERSION'] = '3.0'
+#       end
+#   end
+#end
